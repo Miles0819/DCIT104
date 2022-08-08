@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+ 
+    int i, sum, n;
+     double avg;
+ 
+    for(i = 1; i < 1000; i++){
+  
+      if(i % 2 == 0)
+      sum=sum+i;
+      n=500;
+      avg=double(sum/n);
+ {
+
+         cout<<"the sum of even numbers between 1 and 1000 is "<<sum<<'/n; 
+         cout<<"the average of the sum of the even numbers is "<<avg;
+}
+   }
+    return 0;
+}
